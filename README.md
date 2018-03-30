@@ -1,2 +1,2 @@
 # ASUhumanrobotcomp2018
-ASU Human Robot Summit
+ASU Human Robot Companion Competition

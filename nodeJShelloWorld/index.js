@@ -1,0 +1,1 @@
+var ROS = require("roslib");
