@@ -1,0 +1,697 @@
+**TERMINAL 1***
+    1  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    2  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+    3  sudo apt-get update
+    4  sudo apt-get install ros-kinetic-desktop-full
+    5  sudo rosdep init
+    6  rosdep update
+    7  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    8  source ~/.bashrc
+    9  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   10  $ sudo apt-get install ros-indigo-rosbridge-server
+   11  sudo apt-get install ros-indigo-rosbridge-server
+   12  E: Unable to locate package ros-indigo-rosbridge-server
+   13  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   14  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   15  sudo apt-get update
+   16  sudo apt-get install ros-indigo-desktop-full
+   17  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   18  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+   19  sudo apt-get update
+   20  sudo apt-get install ros-indigo-desktop-full
+   21  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   22  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   23  sudo apt-get update
+   24  sudo apt-get install ros-indigo-desktop-full
+   25  sudo sh -c '. /etc/lsb-release && echo "deb http://mirror.umd.edu/packages.ros.org/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+   26  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   27  sudo apt-get update
+   28  sudo apt-get install ros-indigo-desktop-full
+   29  sudo apt-get install libsdformat1
+   30  sudo apt-get install tcl-vtk
+   31  sudo apt-get install python-vtk
+   32  sudo apt-get install ros-indigo-pcl-ros
+   33  sudo apt-get update
+   34  sudo apt-get install ros-indigo-desktop-full
+   35  sudo apt-get install ros-kinetic-desktop-full
+   36  sudo rosdep init
+   37  rosdep update
+   38  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+   39  source ~/.bashrc
+   40  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   41  cd Desktop/
+   42  ./ros_start
+   43  ./ros_start.sh
+   44  chmod +x ros_start
+   45  ./ros_start
+   46  ifconfig
+   47  ping 192.168.0.100
+   48  vim setip.sh
+   49  sudo apt install vim
+   50  export ROS_IP=192.168.0.101
+   51  export ROS_IP=192.168.0.101:11311
+   52  rostopic
+   53  rostopic list
+   54  export ROS_HOSTNAME=192.168.0.100
+   55  rostopic list
+   56  ifconfig
+   57  rostopic list
+   58  roscore
+   59  export ROS_HOSTNAME=192.168.0.100
+   60  rostopic list
+   61  export 
+   62  rostopic list
+   63  export ROS_HOSTNAME=192.168.0.100
+   64  ping 192.0.100.100
+   65  ping 192.0.100.101
+   66  netcat -l 11311
+   67  netcat -l 1234
+   68  export ROS_IP=http://192.168.0.100:11311
+   69  rostopic list
+   70  rospackage list
+   71  rosrun turtle_sim
+   72  rosrun turtlesim
+   73  rospackage
+   74  rospack
+   75  rospack list
+   76  rostopic list
+   77  roscore
+   78  roskill
+   79  roskillall
+   80  rosnode kill
+   81  rostopic list
+   82  export ROS_IP=http://192.168.0.101:11311
+   83  rostopic list
+   84  killall -9 roscore
+   85  killall -9 rosmaster
+   86  rostopic list
+   87  export ROS_IP=http://192.168.0.101:11311
+   88  rostopic list
+   89  export ROS_IP=http://192.168.0.101:11311
+   90  export ROS_MASTER_URI=http://192.168.0.101:11311
+   91  export ROS_IP=192.168.0.100
+   92  rostopic list
+   93  rosmake turtlesim
+   94  rosrun turtlesim turtle_teleop_key
+   95  cd Desktop/
+   96  sudo dpkg -i code_1.21.1-1521038896_amd64.deb 
+   97  sudo apt-get install -f # Install dependencies
+   98  sudo apt-get update
+   99  sudo apt-get install code # or code-insiders
+  100  sudo apt-get update
+  101  ssudo apt-get upgrade
+  102  sudo apt-get upgrade
+  103  sudo apt-get install git
+  104  sudo apt autoremove
+  105  sudo apt-get install git
+  106  sudo apt-get install ros-<rosdistro>-rosbridge-server
+  107  sudo apt-get install ROS-kinetic-ROSbridge-server
+  108  sudo apt-get install ros-kinetic-rosbridge-server
+  109  ros help
+  110  git clone https://github.com/danpilgrim/ASUhumanrobotcomp2018.git
+  111  cd ASUhumanrobotcomp2018/
+  112  mkdir nodeJShelloWorld
+  113  cd nodeJShelloWorld/
+  114  npm init
+  115  sudo apt install npm
+  116  node
+  117  sudo apt install nodejs
+  118  node
+  119  nodejs
+  120  npm init
+  121  touch index.js
+  122  ls
+  123  cd ..
+  124  git push --all
+  125  git add --all
+  126  git commit -m "init"
+  127  ls
+  128  cd nodeJShelloWorld/
+  129  npm i -S roslib
+  130  cd ..
+  131  git add --all
+  132  git commit -m "init"
+  133  git config --global user.email "d.daniel.pilgrim@gmail.com"
+  134  git config --global user.name "danpilgrim"
+  135  git commit -m "init"
+  136  git push
+  137  git help config
+  138  ls
+  139  cd nodeJShelloWorld/
+  140  LS
+  141  ls
+  142  cd ..
+  143  mkdir
+  144  mkdir CommandDiaries
+  145  cd mkdir
+  146  cd CommandDiaries/
+  147  cd ..
+  148  cd nodeJShelloWorld/
+  149  nodejs index.js
+  150  cd ..
+  151  cd nodeJShelloWorld/
+  152  cd ..
+  153  git add --all
+  154  git commit -m "new"
+  155  git push
+  156  cd nodeJShelloWorld/
+  157  ls
+  158  nodejs index.js 
+  159  ros packages
+  160  ros package
+  161  rospackage
+  162  roslist
+  163  nodejs index.js 
+  164  netstat a | grep 9090
+  165  netstat a | grep 11311
+  166  npm install
+  167  cd ..
+  168  wget http://robotwebtools.org/demos/urdf.html
+  169  roslaunch rosbridge_server rosbridge_websocket.launch
+  170  history
+
+
+***Terminal 2**
+   1  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    2  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+    3  sudo apt-get update
+    4  sudo apt-get install ros-kinetic-desktop-full
+    5  sudo rosdep init
+    6  rosdep update
+    7  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    8  source ~/.bashrc
+    9  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   10  $ sudo apt-get install ros-indigo-rosbridge-server
+   11  sudo apt-get install ros-indigo-rosbridge-server
+   12  E: Unable to locate package ros-indigo-rosbridge-server
+   13  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   14  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   15  sudo apt-get update
+   16  sudo apt-get install ros-indigo-desktop-full
+   17  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   18  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+   19  sudo apt-get update
+   20  sudo apt-get install ros-indigo-desktop-full
+   21  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   22  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   23  sudo apt-get update
+   24  sudo apt-get install ros-indigo-desktop-full
+   25  sudo sh -c '. /etc/lsb-release && echo "deb http://mirror.umd.edu/packages.ros.org/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+   26  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   27  sudo apt-get update
+   28  sudo apt-get install ros-indigo-desktop-full
+   29  sudo apt-get install libsdformat1
+   30  sudo apt-get install tcl-vtk
+   31  sudo apt-get install python-vtk
+   32  sudo apt-get install ros-indigo-pcl-ros
+   33  sudo apt-get update
+   34  sudo apt-get install ros-indigo-desktop-full
+   35  sudo apt-get install ros-kinetic-desktop-full
+   36  sudo rosdep init
+   37  rosdep update
+   38  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+   39  source ~/.bashrc
+   40  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   41  cd Desktop/
+   42  ./ros_start
+   43  ./ros_start.sh
+   44  chmod +x ros_start
+   45  ./ros_start
+   46  ifconfig
+   47  ping 192.168.0.100
+   48  vim setip.sh
+   49  sudo apt install vim
+   50  export ROS_IP=192.168.0.101
+   51  export ROS_IP=192.168.0.101:11311
+   52  rostopic
+   53  rostopic list
+   54  export ROS_HOSTNAME=192.168.0.100
+   55  rostopic list
+   56  ifconfig
+   57  rostopic list
+   58  roscore
+   59  export ROS_HOSTNAME=192.168.0.100
+   60  rostopic list
+   61  export 
+   62  rostopic list
+   63  export ROS_HOSTNAME=192.168.0.100
+   64  ping 192.0.100.100
+   65  ping 192.0.100.101
+   66  netcat -l 11311
+   67  netcat -l 1234
+   68  export ROS_IP=http://192.168.0.100:11311
+   69  rostopic list
+   70  rospackage list
+   71  rosrun turtle_sim
+   72  rosrun turtlesim
+   73  rospackage
+   74  rospack
+   75  rospack list
+   76  rostopic list
+   77  roscore
+   78  roskill
+   79  roskillall
+   80  rosnode kill
+   81  rostopic list
+   82  export ROS_IP=http://192.168.0.101:11311
+   83  rostopic list
+   84  killall -9 roscore
+   85  killall -9 rosmaster
+   86  rostopic list
+   87  export ROS_IP=http://192.168.0.101:11311
+   88  rostopic list
+   89  export ROS_IP=http://192.168.0.101:11311
+   90  export ROS_MASTER_URI=http://192.168.0.101:11311
+   91  export ROS_IP=192.168.0.100
+   92  rostopic list
+   93  rosmake turtlesim
+   94  rosrun turtlesim turtle_teleop_key
+   95  roscore
+   96  history
+
+
+***Terminal 3***
+    1  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    2  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+    3  sudo apt-get update
+    4  sudo apt-get install ros-kinetic-desktop-full
+    5  sudo rosdep init
+    6  rosdep update
+    7  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    8  source ~/.bashrc
+    9  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   10  $ sudo apt-get install ros-indigo-rosbridge-server
+   11  sudo apt-get install ros-indigo-rosbridge-server
+   12  E: Unable to locate package ros-indigo-rosbridge-server
+   13  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   14  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   15  sudo apt-get update
+   16  sudo apt-get install ros-indigo-desktop-full
+   17  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   18  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+   19  sudo apt-get update
+   20  sudo apt-get install ros-indigo-desktop-full
+   21  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   22  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   23  sudo apt-get update
+   24  sudo apt-get install ros-indigo-desktop-full
+   25  sudo sh -c '. /etc/lsb-release && echo "deb http://mirror.umd.edu/packages.ros.org/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+   26  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   27  sudo apt-get update
+   28  sudo apt-get install ros-indigo-desktop-full
+   29  sudo apt-get install libsdformat1
+   30  sudo apt-get install tcl-vtk
+   31  sudo apt-get install python-vtk
+   32  sudo apt-get install ros-indigo-pcl-ros
+   33  sudo apt-get update
+   34  sudo apt-get install ros-indigo-desktop-full
+   35  sudo apt-get install ros-kinetic-desktop-full
+   36  sudo rosdep init
+   37  rosdep update
+   38  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+   39  source ~/.bashrc
+   40  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   41  cd Desktop/
+   42  ./ros_start
+   43  ./ros_start.sh
+   44  chmod +x ros_start
+   45  ./ros_start
+   46  ifconfig
+   47  ping 192.168.0.100
+   48  vim setip.sh
+   49  sudo apt install vim
+   50  export ROS_IP=192.168.0.101
+   51  export ROS_IP=192.168.0.101:11311
+   52  rostopic
+   53  rostopic list
+   54  export ROS_HOSTNAME=192.168.0.100
+   55  rostopic list
+   56  ifconfig
+   57  rostopic list
+   58  roscore
+   59  export ROS_HOSTNAME=192.168.0.100
+   60  rostopic list
+   61  export 
+   62  rostopic list
+   63  export ROS_HOSTNAME=192.168.0.100
+   64  ping 192.0.100.100
+   65  ping 192.0.100.101
+   66  netcat -l 11311
+   67  netcat -l 1234
+   68  export ROS_IP=http://192.168.0.100:11311
+   69  rostopic list
+   70  rospackage list
+   71  rosrun turtle_sim
+   72  rosrun turtlesim
+   73  rospackage
+   74  rospack
+   75  rospack list
+   76  rostopic list
+   77  roscore
+   78  roskill
+   79  roskillall
+   80  rosnode kill
+   81  rostopic list
+   82  export ROS_IP=http://192.168.0.101:11311
+   83  rostopic list
+   84  killall -9 roscore
+   85  killall -9 rosmaster
+   86  rostopic list
+   87  export ROS_IP=http://192.168.0.101:11311
+   88  rostopic list
+   89  export ROS_IP=http://192.168.0.101:11311
+   90  export ROS_MASTER_URI=http://192.168.0.101:11311
+   91  export ROS_IP=192.168.0.100
+   92  rostopic list
+   93  rosmake turtlesim
+   94  rosrun turtlesim turtle_teleop_key
+   95  rosrun turtlesim
+   96  history
+
+**Terminal 4**
+
+    1  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    2  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+    3  sudo apt-get update
+    4  sudo apt-get install ros-kinetic-desktop-full
+    5  sudo rosdep init
+    6  rosdep update
+    7  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    8  source ~/.bashrc
+    9  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   10  $ sudo apt-get install ros-indigo-rosbridge-server
+   11  sudo apt-get install ros-indigo-rosbridge-server
+   12  E: Unable to locate package ros-indigo-rosbridge-server
+   13  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   14  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   15  sudo apt-get update
+   16  sudo apt-get install ros-indigo-desktop-full
+   17  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   18  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+   19  sudo apt-get update
+   20  sudo apt-get install ros-indigo-desktop-full
+   21  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   22  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   23  sudo apt-get update
+   24  sudo apt-get install ros-indigo-desktop-full
+   25  sudo sh -c '. /etc/lsb-release && echo "deb http://mirror.umd.edu/packages.ros.org/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+   26  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   27  sudo apt-get update
+   28  sudo apt-get install ros-indigo-desktop-full
+   29  sudo apt-get install libsdformat1
+   30  sudo apt-get install tcl-vtk
+   31  sudo apt-get install python-vtk
+   32  sudo apt-get install ros-indigo-pcl-ros
+   33  sudo apt-get update
+   34  sudo apt-get install ros-indigo-desktop-full
+   35  sudo apt-get install ros-kinetic-desktop-full
+   36  sudo rosdep init
+   37  rosdep update
+   38  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+   39  source ~/.bashrc
+   40  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   41  cd Desktop/
+   42  ./ros_start
+   43  ./ros_start.sh
+   44  chmod +x ros_start
+   45  ./ros_start
+   46  ifconfig
+   47  ping 192.168.0.100
+   48  vim setip.sh
+   49  sudo apt install vim
+   50  export ROS_IP=192.168.0.101
+   51  export ROS_IP=192.168.0.101:11311
+   52  rostopic
+   53  rostopic list
+   54  export ROS_HOSTNAME=192.168.0.100
+   55  rostopic list
+   56  ifconfig
+   57  rostopic list
+   58  roscore
+   59  export ROS_HOSTNAME=192.168.0.100
+   60  rostopic list
+   61  export 
+   62  rostopic list
+   63  export ROS_HOSTNAME=192.168.0.100
+   64  ping 192.0.100.100
+   65  ping 192.0.100.101
+   66  netcat -l 11311
+   67  netcat -l 1234
+   68  export ROS_IP=http://192.168.0.100:11311
+   69  rostopic list
+   70  rospackage list
+   71  rosrun turtle_sim
+   72  rosrun turtlesim
+   73  rospackage
+   74  rospack
+   75  rospack list
+   76  rostopic list
+   77  roscore
+   78  roskill
+   79  roskillall
+   80  rosnode kill
+   81  rostopic list
+   82  export ROS_IP=http://192.168.0.101:11311
+   83  rostopic list
+   84  killall -9 roscore
+   85  killall -9 rosmaster
+   86  rostopic list
+   87  export ROS_IP=http://192.168.0.101:11311
+   88  rostopic list
+   89  export ROS_IP=http://192.168.0.101:11311
+   90  export ROS_MASTER_URI=http://192.168.0.101:11311
+   91  export ROS_IP=192.168.0.100
+   92  rostopic list
+   93  rosmake turtlesim
+   94  rosrun turtlesim turtle_teleop_key
+   95  roslist
+   96  ros list
+   97  roslist
+   98  roscd
+   99  history
+  100  rostopic pub -r 1 /turtle1/cmd_vel geometry_msgs/Twist '[2,0,0]' '[0,0,0]'
+  101  rosrun turtlesim turtle_teleop_key
+
+***Terminal 5***
+    1  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    2  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+    3  sudo apt-get update
+    4  sudo apt-get install ros-kinetic-desktop-full
+    5  sudo rosdep init
+    6  rosdep update
+    7  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    8  source ~/.bashrc
+    9  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   10  $ sudo apt-get install ros-indigo-rosbridge-server
+   11  sudo apt-get install ros-indigo-rosbridge-server
+   12  E: Unable to locate package ros-indigo-rosbridge-server
+   13  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   14  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   15  sudo apt-get update
+   16  sudo apt-get install ros-indigo-desktop-full
+   17  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   18  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+   19  sudo apt-get update
+   20  sudo apt-get install ros-indigo-desktop-full
+   21  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   22  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   23  sudo apt-get update
+   24  sudo apt-get install ros-indigo-desktop-full
+   25  sudo sh -c '. /etc/lsb-release && echo "deb http://mirror.umd.edu/packages.ros.org/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+   26  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   27  sudo apt-get update
+   28  sudo apt-get install ros-indigo-desktop-full
+   29  sudo apt-get install libsdformat1
+   30  sudo apt-get install tcl-vtk
+   31  sudo apt-get install python-vtk
+   32  sudo apt-get install ros-indigo-pcl-ros
+   33  sudo apt-get update
+   34  sudo apt-get install ros-indigo-desktop-full
+   35  sudo apt-get install ros-kinetic-desktop-full
+   36  sudo rosdep init
+   37  rosdep update
+   38  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+   39  source ~/.bashrc
+   40  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   41  cd Desktop/
+   42  ./ros_start
+   43  ./ros_start.sh
+   44  chmod +x ros_start
+   45  ./ros_start
+   46  ifconfig
+   47  ping 192.168.0.100
+   48  vim setip.sh
+   49  sudo apt install vim
+   50  export ROS_IP=192.168.0.101
+   51  export ROS_IP=192.168.0.101:11311
+   52  rostopic
+   53  rostopic list
+   54  export ROS_HOSTNAME=192.168.0.100
+   55  rostopic list
+   56  ifconfig
+   57  rostopic list
+   58  roscore
+   59  export ROS_HOSTNAME=192.168.0.100
+   60  rostopic list
+   61  export 
+   62  rostopic list
+   63  export ROS_HOSTNAME=192.168.0.100
+   64  ping 192.0.100.100
+   65  ping 192.0.100.101
+   66  netcat -l 11311
+   67  netcat -l 1234
+   68  export ROS_IP=http://192.168.0.100:11311
+   69  rostopic list
+   70  rospackage list
+   71  rosrun turtle_sim
+   72  rosrun turtlesim
+   73  rospackage
+   74  rospack
+   75  rospack list
+   76  rostopic list
+   77  roscore
+   78  roskill
+   79  roskillall
+   80  rosnode kill
+   81  rostopic list
+   82  export ROS_IP=http://192.168.0.101:11311
+   83  rostopic list
+   84  killall -9 roscore
+   85  killall -9 rosmaster
+   86  rostopic list
+   87  export ROS_IP=http://192.168.0.101:11311
+   88  rostopic list
+   89  export ROS_IP=http://192.168.0.101:11311
+   90  export ROS_MASTER_URI=http://192.168.0.101:11311
+   91  export ROS_IP=192.168.0.100
+   92  rostopic list
+   93  rosmake turtlesim
+   94  rosrun turtlesim turtle_teleop_key
+   95  roslist
+   96  ros list
+   97  roslist
+   98  roscd
+   99  cd ASUhumanrobotcomp2018/
+  100  cd nodeJShelloWorld/
+  101  ls
+  102  node index.js
+  103  nodejs index.js
+  104  rostopic
+  105  rostopic list
+  106  nodejs index.js
+  107  rosrun turtlesim turtle_teleop_key
+  108  nodejs index.js
+  109  rosrun turtlesim turtle_teleop_key
+  110  nodejs index.js
+  111  rostopic list
+  112  nodejs index.js
+  113  history
+
+**Terminal 6***
+    1  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+    2  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+    3  sudo apt-get update
+    4  sudo apt-get install ros-kinetic-desktop-full
+    5  sudo rosdep init
+    6  rosdep update
+    7  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+    8  source ~/.bashrc
+    9  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   10  $ sudo apt-get install ros-indigo-rosbridge-server
+   11  sudo apt-get install ros-indigo-rosbridge-server
+   12  E: Unable to locate package ros-indigo-rosbridge-server
+   13  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   14  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   15  sudo apt-get update
+   16  sudo apt-get install ros-indigo-desktop-full
+   17  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+   18  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+   19  sudo apt-get update
+   20  sudo apt-get install ros-indigo-desktop-full
+   21  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+   22  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   23  sudo apt-get update
+   24  sudo apt-get install ros-indigo-desktop-full
+   25  sudo sh -c '. /etc/lsb-release && echo "deb http://mirror.umd.edu/packages.ros.org/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+   26  wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+   27  sudo apt-get update
+   28  sudo apt-get install ros-indigo-desktop-full
+   29  sudo apt-get install libsdformat1
+   30  sudo apt-get install tcl-vtk
+   31  sudo apt-get install python-vtk
+   32  sudo apt-get install ros-indigo-pcl-ros
+   33  sudo apt-get update
+   34  sudo apt-get install ros-indigo-desktop-full
+   35  sudo apt-get install ros-kinetic-desktop-full
+   36  sudo rosdep init
+   37  rosdep update
+   38  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+   39  source ~/.bashrc
+   40  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   41  cd Desktop/
+   42  ./ros_start
+   43  ./ros_start.sh
+   44  chmod +x ros_start
+   45  ./ros_start
+   46  ifconfig
+   47  ping 192.168.0.100
+   48  vim setip.sh
+   49  sudo apt install vim
+   50  export ROS_IP=192.168.0.101
+   51  export ROS_IP=192.168.0.101:11311
+   52  rostopic
+   53  rostopic list
+   54  export ROS_HOSTNAME=192.168.0.100
+   55  rostopic list
+   56  ifconfig
+   57  rostopic list
+   58  roscore
+   59  export ROS_HOSTNAME=192.168.0.100
+   60  rostopic list
+   61  export 
+   62  rostopic list
+   63  export ROS_HOSTNAME=192.168.0.100
+   64  ping 192.0.100.100
+   65  ping 192.0.100.101
+   66  netcat -l 11311
+   67  netcat -l 1234
+   68  export ROS_IP=http://192.168.0.100:11311
+   69  rostopic list
+   70  rospackage list
+   71  rosrun turtle_sim
+   72  rosrun turtlesim
+   73  rospackage
+   74  rospack
+   75  rospack list
+   76  rostopic list
+   77  roscore
+   78  roskill
+   79  roskillall
+   80  rosnode kill
+   81  rostopic list
+   82  export ROS_IP=http://192.168.0.101:11311
+   83  rostopic list
+   84  killall -9 roscore
+   85  killall -9 rosmaster
+   86  rostopic list
+   87  export ROS_IP=http://192.168.0.101:11311
+   88  rostopic list
+   89  export ROS_IP=http://192.168.0.101:11311
+   90  export ROS_MASTER_URI=http://192.168.0.101:11311
+   91  export ROS_IP=192.168.0.100
+   92  rostopic list
+   93  rosmake turtlesim
+   94  rosrun turtlesim turtle_teleop_key
+   95  roslist
+   96  ros list
+   97  roslist
+   98  roscd
+   99  cd ASUhumanrobotcomp2018/
+  100  cd nodeJShelloWorld/
+  101  ls
+  102  node index.js
+  103  nodejs index.js
+  104  rostopic list
+  105  history
+
+

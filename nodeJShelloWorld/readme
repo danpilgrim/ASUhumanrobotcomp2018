@@ -1,0 +1,15 @@
+
+
+How to run this module:
+
+*new terminal* # 
+roscore
+
+*new terminal* # creates bridge from ROS to server
+roslaunch rosbridge_server rosbridge_websocket.launch
+
+*new terminal* # starts turtlesim game
+rosrun turtlesim
+
+*new terminal* # runs javascript file
+node index.js
