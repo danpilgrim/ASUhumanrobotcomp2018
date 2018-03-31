@@ -3,6 +3,7 @@ ASU Human Robot Companion Competition Prep
 
 
 **File Explanations**
+
 nodeJShelloWorld - sends commands to an ROS turtlesim over Javascript
 
 TerminalDiaries - A Diary of Terminal Commands
