@@ -17,7 +17,7 @@ ros_start - "./rosstart" executable to set up wireless communications
 
 Grasping point
 **Reasoning to find objects in certain positions
-What type of ML?
+What type of ML? CNN?
 Noise? What levels
 Gmapping
 Simulate? What to simulate
