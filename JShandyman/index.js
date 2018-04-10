@@ -26,6 +26,11 @@ float move_speed = 1.0f;
 
 moveBase(pub_base_twist, +linear_coef*move_speed, 0.0, 0.0);
 
+ros::Publisher  pub_base_twist = node_handle.advertise<geometry_msgs::Twist> (pub_base_twist_topic_name, 10);
+
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
 void HandymanTeleopKey::moveBase(ros::Publisher &publisher, double linear_x, double linear_y, double angular_z)
 {
   geometry_msgs::Twist twist;
