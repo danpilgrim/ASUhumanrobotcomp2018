@@ -45,6 +45,8 @@ Assessment Schedule
 -ros.org/rsqt_graph shows package to package transmissions
 -rviz shows messages you recieve from robot, visualizes information from sensors, helps get a high level picture (what sensors are returning)
 -Talked about example of connecting with Xbox Kinect (has the same ROS functionality for vision as handyman) >> Next meeting demonstration
+-Catkin
+-Make a description of what we've done so far.
 
 
 
